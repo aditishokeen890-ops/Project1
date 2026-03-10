@@ -166,7 +166,7 @@ Step 19 : The report was then stored  to my workspace in Power BI service.
 Snap of stored Dashboard:
 <img width="1432" height="829" alt="Screenshot 2026-03-10 at 12 41 29 PM" src="https://github.com/user-attachments/assets/a7dfdc1d-0d5a-4637-942a-757712e2405a" />
 
-### Insights
+### Insights:
 
 ### Loan Demand Purpose: 
 Home loans account for the largest loan amount (~6.5B) followed by Business and Education loans, while Auto and Other loans show comparatively lower demand.
