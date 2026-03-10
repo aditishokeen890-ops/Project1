@@ -68,8 +68,7 @@ This helps segment borrowers into different age categories for further analysis 
 
        Median by Credit score bins = MEDIANX('Loan_default 2','Loan_default 2'[LoanAmount]) 
 
-snap of the Area Chart 
-![Image](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560169644-1069e8ac-2ee3-4905-aabf-79d53cbab5f7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T090905Z&X-Amz-Expires=300&X-Amz-Signature=7ac0161ad24c995f3832c16081d4a5af53deb49b465bd4456d4fddce62cb853f&X-Amz-SignedHeaders=host)
+snap of the Area Chart ![Area chart ](https://github.com/user-attachments/assets/874f3f51-f85c-45e1-8411-c8dd09649972)
 
 - Step 10 : Three slicers were added at the top of the dashboard to allow users to filter the entire report dynamically.
 Slicers Used:
@@ -77,7 +76,7 @@ Slicers Used:
 2. Age_group
 3. LoanPurpose
 
-![Snap_2](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560195022-b4de3e93-51c2-40f1-bbee-b3a36926eafc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T095217Z&X-Amz-Expires=300&X-Amz-Signature=8dd4ab89573f5d482a07a0f1647e9c1411f609bdf279e2ebfd3b2bdf5739645f&X-Amz-SignedHeaders=host)
+<img width="1365" height="725" alt="image" src="https://github.com/user-attachments/assets/fd5f0dda-06dd-44a2-b004-ae4cee30757b" />
 
 - Step 11 : DAX was used to create line chart for the Education Analysis. 
 
@@ -87,9 +86,7 @@ Slicers Used:
 From the chart it was observed that mid-level education groups borrow more frequently and Bachelor's degree holders have the highest number of loans (~64K). 
 
 
-![Snap_2](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560153646-4ee2bc05-beaf-42d2-9343-019f46aef7f5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T091134Z&X-Amz-Expires=300&X-Amz-Signature=ef4efd367812469b58a4e59cdf69e12f6ca6844b5dc2b378a3351ad070633518&X-Amz-SignedHeaders=host)
-
-
+<img width="301" height="275" alt="image" src="https://github.com/user-attachments/assets/e877dfbf-b2f6-425d-a7d9-81eb49ec45cf" />
 
 - Step 12 : Clustered column chart evaluates the relationship between existing financial obligations (mortgages and dependents) and total borrowing levels.
 
@@ -101,7 +98,8 @@ Key Observation: Borrowers with mortgages and dependents tend to have slightly h
 
 Snap of Clustered Chart:
 
-![Snap_3](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560177150-3289d033-027a-423a-a8e4-9e2292b816c4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T091758Z&X-Amz-Expires=300&X-Amz-Signature=69be98287b5ec41966efbc2c3bf2e6aa3b88da4aded3489e32db2f92c4f1c7b4&X-Amz-SignedHeaders=host)
+<img width="464" height="256" alt="Screenshot 2026-03-09 at 2 47 18 PM" src="https://github.com/user-attachments/assets/ec4b92d3-fcbd-4370-a058-41f55a109acb" />
+
 
 Step 13: To demonstrate how loan amounts are distributed across credit score segments and borrower age groups flow/relationship chart was created. 
 
@@ -109,15 +107,14 @@ Key observation : The majority of loan value is concentrated among Adults and Mi
 
 Snap of relationship chart:
 
-![Snap_4](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560181795-f0010003-e177-475f-953d-d32b066f1487.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T092529Z&X-Amz-Expires=300&X-Amz-Signature=720614eafb409af6c5fc7cc5cd80b202d527aa0e77850c9494fb1f6da07ae4a5&X-Amz-SignedHeaders=host)
-
+<img width="410" height="337" alt="Screenshot 2026-03-09 at 2 43 54 PM" src="https://github.com/user-attachments/assets/c545f5fc-45b7-4273-b741-6bcf83c697e2" />
 Step 14: Donut chart visualization was used to explore borrowing patterns among high-credit borrowers across different marital statuses and age groups.
 
 Filter applied = High Credit 
 
 Key observation: Loan amounts remain relatively consistent across demographic segments, with average loan values ranging between 126K and 128K.
 
-![snap_5](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560184619-b27b4e2f-a73c-4696-9de8-240a4c46df35.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T093139Z&X-Amz-Expires=300&X-Amz-Signature=2e49db79633713719b4be85cac23f4669b5597f872a9d52df93bf1644956638f&X-Amz-SignedHeaders=host)
+<img width="716" height="249" alt="Screenshot 2026-03-09 at 3 00 44 PM" src="https://github.com/user-attachments/assets/50f67d92-fdc7-4326-81ca-9253bf53e3bd" />
 
 Step 15: Line chart showing Year-Over-Year change in loan defaults.
 #### DAX measure:
@@ -130,10 +127,7 @@ Step 15: Line chart showing Year-Over-Year change in loan defaults.
 Key observations: Financial institutions should closely monitor economic conditions or policy changes around 2015 and 2018 that may have influenced borrower default behavior.
 
 Snap of line chart: 
-
-![snap_6](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560397000-f4690ec6-40b0-4d78-bbfa-b8a37be1d971.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T155000Z&X-Amz-Expires=300&X-Amz-Signature=44256221671db10a1e3df4c22e27bdc514dde3eb7b8a77bbe8dfaad82b40c551&X-Amz-SignedHeaders=host)
-
-
+<img width="608" height="257" alt="Screenshot 2026-03-09 at 9 18 37 PM" src="https://github.com/user-attachments/assets/119b04ba-fe0e-4083-94df-a4cb76be29ce" />
 
 Step 16: Line chart analyzing Year-Over-Year changes in loan amounts issued.
  #### DAX measure:
@@ -145,7 +139,8 @@ Key Observation: Loan issuance declined in 2014 (-1.5) and 2017 (-1.1), indicati
 
 Snap of Line Chart: 
 
-![Snap_7](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560401910-61e95788-5759-4c8e-96df-3040f9f1bbd5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T155836Z&X-Amz-Expires=300&X-Amz-Signature=760e23bfa9457585bbbb480f57e5072703430e97e487a5512be6095cdeb00b98&X-Amz-SignedHeaders=host)
+<img width="582" height="262" alt="Screenshot 2026-03-09 at 9 27 30 PM" src="https://github.com/user-attachments/assets/77517065-fefc-481d-90ca-eedfd8c9db82" />
+
 
 Step 17: Flow/Distribution chart showing loan distribution across credit score categories and marital status.
 
@@ -156,7 +151,7 @@ Step 17: Flow/Distribution chart showing loan distribution across credit score c
 Key Observation: Loan distribution is concentrated among high and median credit score borrowers (~0.65bn), while very low and low credit score groups receive significantly smaller loan amounts (~0.17bn–0.36bn). This indicates that banks prioritize lower-risk borrowers through risk-based lending strategies.
 
 Snap of flow chart:
-![Snap_8](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560474533-f6928d3f-38a0-4778-b61c-da7fe9d910bf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T181755Z&X-Amz-Expires=300&X-Amz-Signature=ab8db126514531bc3153a6881d7dbdc42b9f12c7ddd192a8e8d567db091d0103&X-Amz-SignedHeaders=host)
+<img width="505" height="286" alt="Screenshot 2026-03-09 at 11 47 11 PM" src="https://github.com/user-attachments/assets/496027a6-b7b6-44d4-bd4e-18d06cee7365" />
 
 Step 18 : Hierarchical flow diagram analyzing loan exposure across income groups and employment types.
 
@@ -164,14 +159,12 @@ Step 18 : Hierarchical flow diagram analyzing loan exposure across income groups
 Key Observation: High-income borrowers account for the largest share of loan exposure (~66%), while medium and low-income groups receive significantly smaller loan amounts. Loan distribution across employment types remains relatively balanced, indicating lenders prioritize financially stable borrowers to minimize risk.
 
 Snap of flow chart: 
-![Snap_9](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560485399-def2c785-a3ea-413a-afcf-9e54cfb4426c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260309T183337Z&X-Amz-Expires=300&X-Amz-Signature=ccdca776a471da95cc3eea617a6322e7f6a4f90ce8d607ee8dc544988c0f7e23&X-Amz-SignedHeaders=host)
+<img width="709" height="520" alt="Screenshot 2026-03-10 at 12 03 00 AM" src="https://github.com/user-attachments/assets/5dd5efec-800b-4f44-b62f-fa0de1a46e07" />
 
 Step 19 : The report was then stored  to my workspace in Power BI service.
 
 Snap of stored Dashboard:
-![Snap_10](https://github-production-user-asset-6210df.s3.amazonaws.com/266256600/560760116-c5886394-2a1e-4668-b655-9c827d958f64.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260310%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260310T071253Z&X-Amz-Expires=300&X-Amz-Signature=df116cad45eaf16bde31033fd911f461d649e8184703a6d84ed2acf660ea0780&X-Amz-SignedHeaders=host)
-
-
+<img width="1432" height="829" alt="Screenshot 2026-03-10 at 12 41 29 PM" src="https://github.com/user-attachments/assets/a7dfdc1d-0d5a-4637-942a-757712e2405a" />
 
 ### Insights
 
